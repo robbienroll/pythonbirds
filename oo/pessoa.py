@@ -17,3 +17,7 @@ if __name__ == '__main__':
     print(ian.idade)
     for filho in rob.filhos:
         print(filho.nome)
+    rob.sobrenome = 'Marini'
+    del rob.filhos
+    print(rob.__dict__)
+    print(ian.__dict__)
